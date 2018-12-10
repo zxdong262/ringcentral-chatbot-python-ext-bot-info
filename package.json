@@ -1,6 +1,6 @@
 {
   "name": "ringcentral-chatbot-python-ext-bot-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple ringcentral chatbot framework python extension that add `bot info` command support.",
   "repository": {
     "type": "git",

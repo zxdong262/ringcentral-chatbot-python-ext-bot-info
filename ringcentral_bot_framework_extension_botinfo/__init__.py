@@ -14,10 +14,11 @@ def botGotPostAddAction(
 ):
   """
   bot got group chat message: text
-  bot could send some response
+  bot extension could send some response
+  return True when bot send message, otherwise return False
   """
   if not f'![:Person]({bot.id})' in text:
-    return
+    return False
 
   if 'bot info' in text:
     botInfo = bot.platform.get('/account/~/extension/~')
@@ -31,3 +32,6 @@ def botGotPostAddAction(
         'text': msg
       }
     )
+    return True
+  else:
+    return False
