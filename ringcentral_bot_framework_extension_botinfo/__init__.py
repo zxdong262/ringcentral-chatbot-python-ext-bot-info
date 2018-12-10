@@ -1,5 +1,4 @@
 
-import pydash as _
 import json
 
 name = 'ringcentral_bot_framework_extension_botinfo'
