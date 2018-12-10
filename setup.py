@@ -19,7 +19,7 @@ setuptools.setup(
     url="https://github.com/zxdong262/ringcentral-chatbot-python-ext-bot-info",
     packages=setuptools.find_packages(),
     keywords=['ringcentral', 'bot', 'framework'],
-    install_requires=[i.strip() for i in open('requirements.txt').readlines()],
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
