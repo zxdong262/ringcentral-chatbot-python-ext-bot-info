@@ -3,7 +3,7 @@
 
 Simple ringcentral chatbot python extension that add `bot info` command support.
 
-![screen](screeshots/ss.png)
+![screen](screenshots/ss.png)
 
 ## Table of contents <!-- omit in toc -->
 
