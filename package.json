@@ -1,0 +1,28 @@
+{
+  "name": "ringcentral-chatbot-python-ext-bot-info",
+  "version": "0.0.1",
+  "description": "Simple ringcentral chatbot framework python extension that add `bot info` command support.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/ringcentral-chatbot-python-ext-bot-info.git"
+  },
+  "keywords": [
+    "ringcentral",
+    "bot",
+    "framework",
+    "python",
+    "extension"
+  ],
+  "author": "Drake Zhao <drake.zhao@ringcentral.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxdong262/ringcentral-chatbot-python-ext-bot-info/issues"
+  },
+  "homepage": "https://github.com/zxdong262/ringcentral-chatbot-python-ext-bot-info#readme",
+  "devDependencies": {
+    "ngrok": "3.1.0",
+    "serverless": "1.33.2",
+    "serverless-python-requirements": "4.2.5",
+    "shelljs": "0.8.3"
+  }
+}
