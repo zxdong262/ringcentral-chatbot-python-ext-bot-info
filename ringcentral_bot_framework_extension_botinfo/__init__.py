@@ -19,7 +19,7 @@ def botGotPostAddAction(
   if not f'![:Person]({bot.id})' in text:
     return False
 
-  if 'bot info' in text:
+  if f'![:Person]({bot.id}) bot info' == text:
     botInfo = bot.platform.get('/account/~/extension/~')
     txt = json.loads(botInfo.text())
     txt = json.dumps(txt, indent=2)
