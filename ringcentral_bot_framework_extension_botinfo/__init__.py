@@ -9,14 +9,15 @@ def botGotPostAddAction(
   creatorId,
   user,
   text,
-  dbAction
+  dbAction,
+  handledByOtherExtension
 ):
   """
   bot got group chat message: text
   bot extension could send some response
   return True when bot send message, otherwise return False
   """
-  if not f'![:Person]({bot.id})' in text:
+  if handledByOtherExtension or not f'![:Person]({bot.id})' in text:
     return False
 
   if f'![:Person]({bot.id}) bot info' == text:
