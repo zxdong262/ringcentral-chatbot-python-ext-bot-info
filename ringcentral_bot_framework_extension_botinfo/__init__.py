@@ -21,8 +21,8 @@ def botGotPostAddAction(
     return False
 
   if f'![:Person]({bot.id}) bot info' == text:
-    botInfo = bot.platform.get('/account/~/extension/~')
-    txt = json.loads(botInfo.text())
+    botInfo = bot.platform.get('/restapi/v1.0/account/~/extension/~')
+    txt = json.loads(botInfo.text)
     txt = json.dumps(txt, indent=2)
     msg = f'![:Person]({creatorId}) bot info json is:\n' + txt
 
