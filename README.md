@@ -15,7 +15,7 @@ Simple ringcentral chatbot python extension that add `bot info` command support.
 
 ## Use
 
-Just follow [ringcentral-chatbot-python#use-extensions](https://github.com/zxdong262/ringcentral-chatbot-python#use-extensions), set `EXTENSIONS=ringcentral_bot_framework_extension_botinfo`
+[Use/write extensions](https://github.com/zxdong262/ringcentral-chatbot-python/blob/master/docs/extensions.md)
 
 ## Prerequisites
 
