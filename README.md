@@ -56,6 +56,9 @@ RINGCENTRAL_BOT_SERVER=https://xxxxx.ngrok.io
 RINGCENTRAL_BOT_CLIENT_ID=
 RINGCENTRAL_BOT_CLIENT_SECRET=
 
+# create bot config
+cp config.sample.py config.py
+
 # run local dev server
 ./bin/start
 ```
