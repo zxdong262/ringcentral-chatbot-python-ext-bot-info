@@ -1,6 +1,6 @@
 flask
 pylint
 python-dotenv
-ringcentral_bot_framework == 0.2.3
+ringcentral_bot_framework == 0.2.5
 boto3
 twine
